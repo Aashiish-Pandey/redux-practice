@@ -1,8 +1,8 @@
-import { BUY_CAKE } from "./cakeType"
+import { BUY_CAKE } from "./cakeType";
+export const BuyCake = () => {
+  return {
+    type: BUY_CAKE,
+  };
+};
 
-const BuyCake =()=>{
 
-    return {
-        type:BUY_CAKE
-    }
-}
